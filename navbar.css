@@ -1,0 +1,42 @@
+.flex-container-menu{
+    display: flex;
+    color: white;
+    max-width: 100%;
+    background-color: #C4170C;
+    flex-direction: row;
+    height: 80px;
+}
+
+.list, a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #745f5f;  
+}
+
+#toggler,
+.flex-container-menu .list{
+    display: none;
+}
+
+#toggler:checked ~ .list{
+    display: block;
+}
+
+.list{
+  margin-top: -50px;
+  text-indent: -999999;
+  background-color: #FAFAFA;
+  font-size: 16px;
+}
+
+li{
+    padding: 12px;
+}
+
+
+
+
+

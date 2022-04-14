@@ -1,0 +1,26 @@
+.maior{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40px;   
+}
+
+.busca{
+    color: white;
+    margin-right: 12px;
+    width: 150px;
+    height: 30px;
+    padding: 5PX;
+    font-size: 16PX;
+    margin-top: 20px;
+     background-color: #A7140A;
+    font-weight: 400;
+}
+.menu, label{
+    margin-left: 12px;
+    margin-top: 22px;
+}
+
+.fecha{
+    
+}
+
